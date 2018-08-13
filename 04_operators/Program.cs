@@ -12,11 +12,11 @@ namespace _04_operators
         {
 
             Console.WriteLine(5 + 2);  //result = 7
-            Console.WriteLine(10 - 6);  //result = 4
+            Console.WriteLine(10 - 6); //result = 4
             Console.WriteLine(2 * 3);  //result = 6
-            Console.WriteLine(10 / 2);  //result = 5
+            Console.WriteLine(10 / 2); //result = 5
 
-            Console.WriteLine(10 % 9);  //result = 1 (10/9 = 1 w/ remainder of 1)
+            Console.WriteLine(10 % 9);  //result = 1 (10/9 = 1 with a remainder of 1)
 
         }
     }

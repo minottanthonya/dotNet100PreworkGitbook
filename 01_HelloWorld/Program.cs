@@ -18,7 +18,7 @@ namespace _01_HelloWorld
             Console.WriteLine("Wow! That's great!");
 
 
-            //Console.ReadLine();  // Not really necessary if you run by Ctrl + F5.... but YES NECESSARY if you run by the Start button in the toolbar
+            Console.ReadLine();  
         }
     }
 }

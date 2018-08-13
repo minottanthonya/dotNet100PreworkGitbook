@@ -11,6 +11,7 @@ namespace _08_numbers
         static void Main(string[] args)
         {
             //Let's review the different number types in C#.
+            //This covers them all
 
             int i = 0;
 

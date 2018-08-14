@@ -61,7 +61,8 @@ namespace _09_loops
 
             for (int g = 1; g <= 100; g++ )
             {
-                if (g % 15 == 0)
+                if (g % 15 == 0)  //you use % 15 because you are looking for things divisible by 3 and 5
+                                  //so what is 3 x 5. 15. 
                 {
                     Console.WriteLine("FizzBuzz");
                 }

@@ -35,6 +35,49 @@ namespace _09_loops
                 Console.WriteLine(i);
             }
 
+            // Bronze Challenge
+
+            // Create a for loop that prints the numbers 500 through 525.
+          
+            for (int y = 500; y <= 525; y++)
+            {
+                Console.WriteLine(y);
+            }
+
+            // Silver Challenge
+
+            // Create a for loop that prints the numbers from 0-100 by 5's
+
+            for (int i = 0; i <= 100; i += 5)
+            {
+                Console.WriteLine(i);
+            }
+
+            // Gold Challenge
+
+            // Create a for loop that prints the numbers 1-100 to the console. 
+            // If the # is divisible by 3, print Fizz instead of the number, if it's divisible by 5, print Buzz, 
+            // if it's divisible by both 3 and 5, print FizzBuzz.
+
+            for (int g = 1; g <= 100; g++ )
+            {
+                if (g % 15 == 0)
+                {
+                    Console.WriteLine("FizzBuzz");
+                }
+                else if (g % 3 == 0)
+                {
+                    Console.WriteLine("Fizz");
+                }
+                else if (g % 5 == 0)
+                {
+                    Console.WriteLine("Buzz");
+                }
+                else
+                {
+                    Console.WriteLine(g);
+                }
+            }
         }
     }
 }

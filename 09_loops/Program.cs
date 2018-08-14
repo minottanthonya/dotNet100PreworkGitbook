@@ -11,8 +11,11 @@ namespace _09_loops
         static void Main(string[] args)
         {
 
-            // WHILE loop
+            // WHILE LOOP
 
+            // While loops execute a block of code as long as the condition you give it is true.
+            // Once the condition is false, it will stop. Below is an example:
+            
             int number = 0;
 
             while (number <= 100)
@@ -23,7 +26,7 @@ namespace _09_loops
             Console.ReadLine();
 
 
-            // FOR loop
+            // FOR LOOP
 
             int number2 = 100;
 ​
@@ -31,12 +34,6 @@ namespace _09_loops
             {
                 Console.WriteLine(i);
             }
-
-
-
-
-
-
 
         }
     }
